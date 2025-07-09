@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en">
+
+     <head>
+        <meta charset="UTF-8"
+        <meta http-equiv="X-UA-Compatible" content"IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Heena</title>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       
+<style>
+ * {
+   margin: 0;
+   font-family: Arial;
+   border: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color:rgb(107,0,62) ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+
+.nav-henna {
+    height: 40px;
+    width: 180px;
+    margin-top: 15px;
+    font-size: 25px;
+   
+}
+
+
+.nav-search {
+   display: flex;
+   justify-content: space-evenly;  
+   background-color: white;
+   width: 420px;
+   height: 50px;
+   border-top-left-radius:30px;
+     border-bottom-left-radius:30px;
+      border-top-right-radius:30px;
+      border-bottom-right-radius:30px;
+  
+  
+    
+}
+
+.search-select {
+  background-color: white;
+  width: 40px;
+  text-align: center;
+  border: none;
+  
+  
+  
+}
+
+.search-input {
+    width: 380px; 
+    font-size: 15px;
+     border: none;
+      border-top-left-radius:30px;
+     border-bottom-left-radius:30px;
+      border-top-right-radius:30px;
+      border-bottom-right-radius:30px;
+  
+     
+  
+}
+
+
+
+.search-icon{
+    width:  45px;
+   justify-content: space-between;
+    font-size: 1.2rem;
+    color: rgb(107,0,62);
+    
+   
+}
+
+
+
+
+
+
+ 
+
+.add-icon {
+   display: flex;
+   align-items: center;
+}
+
+.add-second{
+    font-size: 1rem;
+        margin-left: 3px;
+ 
+}
+
+
+.add-icon {
+   display: flex;
+   align-items: center;
+}
+
+.nav-search {
+   display: flex;
+   justify-content: space-evenly;  
+   background-color: white;
+   width: 620px;
+   height: 40px;
+  
+}
+.search-select {
+  background-color: transparent;
+  width: 50px;
+  text-align: center;
+  border: none;
+   border-top-left-radius:30px;
+  border-top-bottom-radius:30px;
+      border-top-right-radius:30px;
+      border-top-right-radius:30px;
+  
+}
+
+.search-input {
+    width: 100%; 
+    font-size: 1rem;
+     border: none;
+     border-top-left-radius:30px;
+     border-top-bottom-radius:30px;
+      border-top-right-radius:30px;
+      border-top-right-radius:30px;
+}
+
+.search-icon{
+    width:  45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+     border-top-left-radius:30px;
+     border-top-bottom-radius:30px;
+      border-top-right-radius:30px;
+      border-top-right-radius:30px;
+   
+}
+
+
+
+.nav-home i{
+  font-size:20px;
+}
+.nav-gallery i{
+  font-size:20px;
+}
+.nav-ser i{
+  font-size:20px;
+}
+.nav-sign in i{
+  font-size:20px;
+}
+.nav-help i{
+  font-size:20px;
+}
+
+.navbar2 {
+    height: 300px;
+    width: 100%;
+    background-color:#9D446E;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navbar2 p{
+   font-size: 60px;
+   margin-bottom: 120px;
+   margin-left: 450px;
+   color:black;
+     
+}
+.navbar2 p1{
+   font-size: 30px;
+   margin-top:150px;
+     transform: translate(-105%,-50%);
+  text-align: center;
+  color:black;
+}
+
+
+
+.hero-section {
+background-image: url("https://www.mehndidesigner.com/wp-content/uploads/2020/11/bridal-mehndi-jsk-photography.png");
+background-size: cover;
+height: 700px;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+margin-top: 0px;
+
+}
+
+.htext{
+  width: 650px;
+  position: absolute;
+  top:160%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  color: white;
+}
+
+.htext span{
+  letter-spacing: 5px;
+}
+.htext h1{
+    
+  font-size: 3em;
+}
+.htext a{
+  text-decoration: none;
+  background: indianred;
+  color: white;
+  padding: 10px 20px;
+  letter-spacing: 4px; 
+}
+
+
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(107,0,62) ;
+}
+
+
+.box {
+   
+   height: 350px;
+   width: 19%;
+   background-color:#9D446E;
+   margin-top: 10px;
+  
+   
+}
+.box-img{
+  height:320px;
+  background-size: cover;
+ 
+} 
+
+
+.box-content p{
+  color: black;
+}
+
+@media (max-width: 998px){
+  html{
+    font-size: 55%;
+        
+
+        
+  }
+
+.navbar {
+    height: 30px;
+    background-color:rgb(107,0,62);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+
+.nav-henna {
+    height: 20px;
+    width: 60px;
+    margin-top: 15px;
+    font-size: 10px;
+   
+}
+
+.nav-search {
+   display: flex;
+   justify-content: space-evenly;  
+   background-color: white;
+   width: 95px;
+   height: 15px;
+   margin-left:10px;
+   border-top-left-radius:30px;
+     border-bottom-left-radius:30px;
+      border-top-right-radius:30px;
+      border-bottom-right-radius:30px;
+  
+  
+    
+}
+
+.search-select {
+  background-color: white;
+  width: 20px;
+  text-align: center;
+  border: none;
+  
+  
+  
+}
+
+.nav-home i{
+  font-size:10px;
+}
+.nav-offer i{
+  font-size:10px;
+}
+.nav-ser i{
+  font-size:10px;
+}
+.nav-login i{
+  font-size:10px;
+}
+.nav-help i{
+  font-size:10px;
+}
+.navbar2 {
+    height: 180px;
+    width: 100%;
+    background-color:#6C44C;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navbar2 p{
+   font-size: 15px;
+   margin-bottom: 100px;
+   margin-left: 150px;
+     
+}
+.navbar2 p1{
+   font-size: 12px;
+   margin-top:110px;
+     transform: translate(-50%,-50%);
+  text-align: center;
+  color: white;
+}
+
+.hero-section {
+background-image: url("https://www.mehndidesigner.com/wp-content/uploads/2020/11/bridal-mehndi-jsk-photography.png");
+background-size: cover;
+height: 160px;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+
+
+}
+.htext{
+  width: 100px;
+  position: absolute;
+  top:55%;
+  left: 60%;
+  transform: translate(-70%,-50%);
+  text-align: center;
+  color: white;
+}
+
+.htext span{
+  letter-spacing: 0.5px;
+}
+.htext h1{
+    
+  font-size: 1.5em;
+}
+
+}
+.htext a{
+  text-decoration: none;
+  background: indianred;
+  color: white;
+  padding: 0.5px 1px;
+  letter-spacing: 0.5px; 
+  margin-top: 1px;
+
+ 
+} 
+
+
+
+
+@media(max-width: 768px){
+  html{
+    font-size: 45%;
+  }
+}
+
+.foot-panel1 {
+  background-color:  rgb(107,0,62);
+  color: black;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85rem;
+}
+
+ul a {
+   display: block;
+   font-size: 0.85rem;
+   margin-top: 10px;
+   color: black;
+}
+
+.foot-panel2 {
+  background-color: rgb(107,0,62);
+  color: black;
+  height: 88px;
+  font-size: 0.7rem;
+  text-align: center;
+  }
+
+.pages {
+   padding-top: 25px;
+}
+
+.copyright {
+   padding-top: 10px;
+}
+
+</style>
+</head>
+<body>
+<header>
+
+</head>
+<body>
+ <header>
+   <div class="navbar">
+  
+    
+
+
+
+         
+     <div class="nav-henna">
+     HennaDesigner
+</div>
+     
+
+<div class="nav-search">
+    <input placeholder="Search designs" class="search-input"> 
+     <div class="search-icon">
+       <i class="fa-solid fa-magnifying-glass"></i>
+
+    </div>
+   
+
+</div>
+    
+     <div class="nav-home">
+     <i class="fa-solid fa-house"></i>
+      Home
+</div>
+ 
+  
+     <div class="nav-gallery>
+     <i class="fa-solid fa-gift"></i>
+      Gallery
+</div>
+
+    <div class="nav-ser>
+     
+
+<i class="fa-solid fa-bell-concierge"></i>
+     Our Services
+</div>
+
+<div class="nav-sign in>
+     <i class="fa-solid fa-user"></i>
+    sign in
+</div>
+
+  
+ 
+     
+     <div class="nav-help">
+     <i class="fa-solid fa-handshake-angle"></i>
+      Help
+</div>
+</div>
+</div>
+<div class="navbar2">
+<p>HennaDesigner</p>
+<p1>promise you to making your special occassion a memorable one</p1> 
+</div>
+ 
+
+
+
+</header>
+
+<div class="hero-section">
+
+
+<section class="htext">
+  <span>Let's Search</span>
+  <h1>100+ Best Henna Designs</h1>
+   <br>
+   <a href="#">Select your designs</a>
+</section>
+</div>
+</div>
+
+<div class="shop-section">
+
+  <div class="box1 box">
+ 
+    <div class="box-img" style="background-image: url('https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2019/03/rose1.jpg');"></div>
+    <p>Book now</p> 
+</div>
+
+<div class="box2 box">
+        <div class="box-img" style="background-image: url('https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2020/03/IMG-3408.jpg1.jpg');"></div>
+      <p>Book now</p>
+         </div>
+
+ <div class="box3 box"> 
+<div class="box-img" style="background-image: url('https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2020/03/IMG-4545.jpg.jpg');"></div>
+      <p>Book now</p>
+         </div>
+
+ <div class="box4 box"> 
+    <div class="box-img" style="background-image: url('https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2020/02/e3770672aa7bebdc1effd70fdae84a2e.jpg');"></div>
+      <p>Book now</p>
+         </div>
+
+<div class="box5 box"> 
+  <div class="box-img" style="background-image: url('https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2020/06/alankritaa.jpg');"></div>
+      <p>Book now</p>
+        
+
+</div>
+
+  <div class="box6 box">
+ 
+    <div class="box-img" style="background-image: url('https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2020/03/IMG-3415.jpg1.jpg');"></div>
+    <p>Book now</p> 
+</div>
+
+<div class="box7 box">
+        <div class="box-img" style="background-image: url('https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2021/06/287842652_103896137.jpg');"></div>
+      <p>Book now</p>
+         </div>
+
+ <div class="box8 box"> 
+<div class="box-img" style="background-image: url('https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2020/06/83018251_496139434672054_91045924126010.jpg');"></div>
+      <p>Book now</p>
+         </div>
+
+ <div class="box9 box"> 
+    <div class="box-img" style="background-image: url('https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2020/06/henna-mehendi-london.jpg');"></div>
+      <p>Book now</p>
+         </div>
+
+<div class="box10 box"> 
+  <div class="box-img" style="background-image: url('https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2021/06/186183444_332015678294759_8444700471869634569_n.jpg');"></div>
+      <p>Book now</p>
+        
+
+</div>
+
+  <div class="box11 box">
+ 
+    <div class="box-img" style="background-image: url('https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2022/05/IMG_0294.jpg.jpg');"></div>
+    <p>Book now</p> 
+</div>
+
+<div class="box12 box">
+        <div class="box-img" style="background-image: url('https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2021/10/1553595429_0X9A1401g-1.jpg');"></div>
+      <p>Book now</p>
+         </div>
+
+ <div class="box13 box"> 
+<div class="box-img" style="background-image: url('https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2018/10/download-7.jpg');"></div>
+      <p>Book now</p>
+         </div>
+
+ <div class="box14 box"> 
+    <div class="box-img" style="background-image: url('https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2018/10/download-9.jpg');"></div>
+      <p>Book now</p>
+         </div>
+
+<div class="box15 box"> 
+  <div class="box-img" style="background-image: url('https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2021/10/140771962_2757445794518967_7391644944024684805_n.jpg');"></div>
+      <p>Book now</p>
+        
+
+</div>
+
+  <div class="box16 box">
+ 
+    <div class="box-img" style="background-image: url('https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2021/10/7f1bd0436bf4dae6d0cc99ad47d69072.jpg');"></div>
+    <p>Book now</p> 
+</div>
+
+<div class="box17 box">
+        <div class="box-img" style="background-image: url('https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2021/10/1612788731_IMG_20210121_125239.jpg');"></div>
+      <p>Book now</p>
+         </div>
+
+ <div class="box18 box"> 
+<div class="box-img" style="background-image: url('https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2021/10/d598e0d9e8192036387ddb966219bc7e.jpg');"></div>
+      <p>Book now</p>
+         </div>
+
+ <div class="box19 box"> 
+    <div class="box-img" style="background-image: url('https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2021/06/1571280234_image5785.jpg');"></div>
+      <p>Book now</p>
+         </div>
+
+<div class="box20 box"> 
+  <div class="box-img" style="background-image: url('https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2020/02/f1ab2300153a6505ece2589b85711570.jpg');"></div>
+      <p>Book now</p>
+        
+
+</div>
+
+  <div class="box21 box">
+ 
+    <div class="box-img" style="background-image: url('https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2021/04/CKJaB8Arc16.jpg');"></div>
+    <p>Book now</p> 
+</div>
+
+<div class="box22 box">
+        <div class="box-img" style="background-image: url('https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2021/12/IMG_0270.jpg');"></div>
+      <p>Book now</p>
+         </div>
+
+ <div class="box23 box"> 
+<div class="box-img" style="background-image: url('https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2018/06/Shading.jpg');"></div>
+      <p>Book now</p>
+         </div>
+
+ <div class="box24 box"> 
+    <div class="box-img" style="background-image: url('https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2018/12/1542985887_CL__148_.jpg');"></div>
+      <p>Book now</p>
+         </div>
+
+<div class="box25 box"> 
+  <div class="box-img" style="background-image: url('https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2021/08/18c8c9740879cb883e565caa198428af.jpg');"></div>
+      <p>Book now</p>
+        
+
+</div>
+
+  <div class="box26 box">
+ 
+    <div class="box-img" style="background-image: url('https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2019/03/1528358098_new_mehe.jpg');"></div>
+    <p>Book now</p> 
+</div>
+
+<div class="box27 box">
+        <div class="box-img" style="background-image: url('https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2019/03/1541098751_cor_2540.jpg');"></div>
+      <p>Book now</p>
+         </div>
+
+ <div class="box28 box"> 
+<div class="box-img" style="background-image: url('https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2019/03/1-5.jpg');"></div>
+      <p>Book now</p>
+         </div>
+
+ <div class="box29 box"> 
+    <div class="box-img" style="background-image: url('https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2019/03/1-1.jpeg');"></div>
+      <p>Book now</p>
+         </div>
+
+<div class="box30 box"> 
+  <div class="box-img" style="background-image: url('https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2019/03/1-3.jpg');"></div>
+      <p>Book now</p>
+        
+
+</div>
+
+ <div class="box31 box">
+ 
+    <div class="box-img" style="background-image: url('https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2019/03/arjun-mehandi-artist1.jpg');"></div>
+    <p>Book now</p> 
+</div>
+
+<div class="box32 box">
+        <div class="box-img" style="background-image: url('https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2021/04/CYJNW7GLUp4.jpg');"></div>
+      <p>Book now</p>
+         </div>
+
+ <div class="box33 box"> 
+<div class="box-img" style="background-image: url('https://cfw.rabbitloader.xyz/eyJjIjp0cnVlLCJoIjoibXltYW5kYXAuaW4iLCJ2IjozNTA3MDAwMTg5fQ/wp-content/uploads/2023/04/Bridal-Mehndi-Design-with-Fancy-Motifs.jpg');"></div>
+      <p>Book now</p>
+         </div>
+
+ <div class="box34 box"> 
+    <div class="box-img" style="background-image: url('https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2021/04/12e020c7405477137fbadd2a5be1a45b-1.jpg');"></div>
+      <p>Book now</p>
+         </div>
+
+<div class="box35 box"> 
+  <div class="box-img" style="background-image: url('https://image.wedmegood.com/resized-nw/600X/wp-content/uploads/2020/03/IMG-3368.jpg1.jpg');"></div>
+      <p>Book now</p>
+        
+
+</div>
+
+ <div class="box31 box">
+ 
+    <div class="box-img" style="background-image: url('https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2021/06/1490035844_IMG_2999__853x1280_.jpg');"></div>
+    <p>Book now</p> 
+</div>
+
+<div class="box32 box">
+        <div class="box-img" style="background-image: url('https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2021/04/Screenshot_2022-07-14-18-03-34-44_965bbf4d18d205f782c6b8409c5773a4.jpg');"></div>
+      <p>Book now</p>
+         </div>
+
+ <div class="box33 box"> 
+<div class="box-img" style="background-image: url('https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2021/06/1541098750_cor_2503.jpg');"></div>
+      <p>Book now</p>
+         </div>
+
+ <div class="box34 box"> 
+    <div class="box-img" style="background-image: url('https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2021/04/67e5cf72b821a8102bf444869bc0be08.jpg');"></div>
+      <p>Book now</p>
+         </div>
+
+<div class="box35 box"> 
+  <div class="box-img" style="background-image: url('https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2021/06/1487064299_Mehndi_9.jpg');"></div>
+      <p>Book now</p>
+        
+
+</div>
+
+<div class="box36 box">
+ 
+    <div class="box-img" style="background-image: url('https://image.wedmegood.com/resized-nw/600X/wp-content/uploads/2022/05/ca201ddfdb794ee8d78deed36f36eb041.jpg');"></div>
+    <p>Book now</p> 
+</div>
+
+<div class="box37 box">
+        <div class="box-img" style="background-image: url('https://mymandap.in/wp-content/uploads/2021/12/Photo-of-Bridal-feet-mehendi-and-jutti.jpg');"></div>
+      <p>Book now</p>
+         </div>
+
+ <div class="box38 box"> 
+<div class="box-img" style="background-image: url('https://cfw.rabbitloader.xyz/eyJjIjp0cnVlLCJoIjoibXltYW5kYXAuaW4iLCJ2IjozNTA3MDAwMTg5fQ/wp-content/uploads/2023/04/Traditional-Motifs-for-and-Mehndi-Design.jpg');"></div>
+      <p>Book now</p>
+         </div>
+
+ <div class="box39 box"> 
+    <div class="box-img" style="background-image: url('https://cfw.rabbitloader.xyz/eyJjIjp0cnVlLCJoIjoibXltYW5kYXAuaW4iLCJ2IjozNTA3MDAwMTg5fQ/wp-content/uploads/2021/12/The-best-of-the-best-Bridal-Foot-Mehendi-for-your-inspiration.jpg');"></div>
+      <p>Book now</p>
+         </div>
+
+<div class="box40 box"> 
+  <div class="box-img" style="background-image: url('https://cfw.rabbitloader.xyz/eyJjIjp0cnVlLCJoIjoibXltYW5kYXAuaW4iLCJ2IjozNTA3MDAwMTg5fQ/wp-content/uploads/2023/04/Floral-Motifs-for-Henna-Designs.jpg');"></div>
+      <p>Book now</p>
+        
+
+</div><div class="box41 box">
+ 
+    <div class="box-img" style="background-image: url('https://cfw.rabbitloader.xyz/eyJjIjp0cnVlLCJoIjoibXltYW5kYXAuaW4iLCJ2IjozNTA3MDAwMTg5fQ/wp-content/uploads/2021/12/300-Easy-Henna-Designs-For-Beginners-On-Hands-2021-Simple-Mehandi-Art-For-Kids-820x1024.jpg');"></div>
+    <p>Book now</p> 
+</div>
+
+<div class="box42 box">
+        <div class="box-img" style="background-image: url('https://cfw.rabbitloader.xyz/eyJjIjp0cnVlLCJoIjoibXltYW5kYXAuaW4iLCJ2IjozNTA3MDAwMTg5fQ/wp-content/uploads/2023/04/Fancy-Mehendi-Design-with-Intricate-Design.jpg');"></div>
+      <p>Book now</p>
+         </div>
+
+ <div class="box43 box"> 
+<div class="box-img" style="background-image: url('https://cfw.rabbitloader.xyz/eyJjIjp0cnVlLCJoIjoibXltYW5kYXAuaW4iLCJ2IjozNTA3MDAwMTg5fQ/wp-content/uploads/2021/12/Latest-Foot-Mehndi-Designs-For-The-Bride-Her-Tribe.jpg');"></div>
+      <p>Book now</p>
+         </div>
+
+ <div class="box44 box"> 
+    <div class="box-img" style="background-image: url('https://cfw.rabbitloader.xyz/eyJjIjp0cnVlLCJoIjoibXltYW5kYXAuaW4iLCJ2IjozNTA3MDAwMTg5fQ/wp-content/uploads/2023/04/Finger-Mehndi-Design-for-a-Special-Occasion.jpg');"></div>
+      <p>Book now</p>
+         </div>
+
+<div class="box45 box"> 
+  <div class="box-img" style="background-image: url('https://cfw.rabbitloader.xyz/eyJjIjp0cnVlLCJoIjoibXltYW5kYXAuaW4iLCJ2IjozNTA3MDAwMTg5fQ/wp-content/uploads/2021/12/Trendy-Mehendi-Designs-_-Peacock-Mehndi-Patterns-_-Latest-Henna-Designs-_-Feet-Mehendi-Designs.jpg');"></div>
+      <p>Book now</p>
+        
+
+</div>
+
+
+   
+
+</div>
+   
+<footer>
+ 
+
+  <div class="foot-panel1">
+    <ul>
+      <p>ABOUT</p>
+      <a>Contact Us</a>
+      <a>About Us</a>
+      <a>Henna sevices</a>
+      <a>Careers</a>
+      <a>Press</a>
+      <a>Henna Wholesale</a>
+    </ul>
+      <ul>
+       <p>ABOUT</p>
+      <a>Contact Us</a>
+      <a>About Us</a>
+      <a>Henna services</a>
+      <a>Careers</a>
+      <a>Press</a>
+      <a>Henna Wholesale</a>
+    </ul>
+      <ul>
+      <p>ABOUT</p>
+      <a>Contact Us</a>
+      <a>About Us</a>
+      <a>Henna services</a>
+      <a>Careers</a>
+      <a>Press</a>
+      <a>Henna Wholesale</a>
+    </ul>
+      <ul>
+       <p>ABOUT</p>
+      <a>Contact Us</a>
+      <a>About Us</a>
+      <a>Henna services</a>
+      <a>Careers</a>
+      <a>Press</a>
+      <a>Henna Wholesale</a>
+    </ul>
+       <ul>
+       <p>ABOUT</p>
+      <a>Contact Us</a>
+      <a>About Us</a>
+      <a>Henna services</a>
+      <a>Careers</a>
+      <a>Press</a>
+      <a>Henna Wholesale</a>
+    </ul>
+       <ul>
+       <p>ABOUT</p>
+      <a>Contact Us</a>
+      <a>About Us</a>
+      <a>Henna services</a>
+      <a>Careers</a>
+      <a>Press</a>
+      <a>Henna Wholesale</a>
+    </ul>
+</div>
+
+
+
+<div class="foot-panel2">
+   <div class="pages">
+    <a>Become a seller</a>
+    <a>Gift Card</a>
+    <a>Help?</a>
+</div>
+<div class="copyright">
+   © 2007-2023 HennaDesigner.com
+ </div>
+ </div>
+</footer>
+
+      
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
